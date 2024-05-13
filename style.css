@@ -1,0 +1,99 @@
+
+@import url(media.css);
+@font-face {
+    font-family: myfont;
+    src: url(Abril_Fatface/AbrilFatface-Regular.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+ 
+    max-width: 100vh;
+    min-height: 100vh;
+    margin-left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to right bottom #ffa585 #45c5d8); */
+    background-image: url(ai-generated-8733987_1280.jpg);
+    color: white;
+}
+.container{
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 8px 8px 4px  rgb(121, 121, 196), 8px 8px 0px #575757;
+
+}
+.container h1{
+    font-family: myfont;
+    font-size: 2rem;
+    margin-block:8px;
+    text-align: center;
+    cursor: none;
+
+}
+.range{
+    cursor: pointer;
+}
+.passBox{
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-block: 8px;
+    cursor: copy;
+}
+.row{
+    display: flex;
+    margin-block: 8px;
+}
+.row p, .row label{
+    flex-basis: 100%;
+font-size: 20px;  
+font-weight: 900;  
+}
+
+.row p:hover,.row span{
+    cursor: none;
+}
+.row label:hover{
+    color:  rgb(121, 121, 196);;
+   
+    cursor: pointer;
+}
+.row input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.genBtn{
+    border: none;
+    outline: none;
+    background-color:  rgb(65, 65, 89);
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    margin-block: 8px;
+    font-weight: 900px;
+    font-family: myfont;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.genBtn:hover{
+    background-color:  rgb(153, 153, 219);
+    font-size: 20.5px;
+}

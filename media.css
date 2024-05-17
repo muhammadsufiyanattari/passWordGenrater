@@ -85,7 +85,11 @@
         align-items: center;
         /* background: linear-gradient(to right bottom #ffa585 #45c5d8); */
         background-image: url(ai-generated-8733987_1280.jpg);
+        
         color: white;
+    }
+    .body{
+        
     }
     .container{
                
